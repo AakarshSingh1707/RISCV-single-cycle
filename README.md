@@ -1,3 +1,6 @@
+Demo Video  
+[Watch the project demo here](https://drive.google.com/file/d/1g8GcoGoaPczfH6TVS4Lg4pZ73KVb_Kzs/view?usp=drive_link) 
+
 RV32I Single‑Cycle CPU (Basys‑3)
 A compact RV32I single‑cycle processor with self‑checking tests and an FPGA demo on Basys‑3. Focuses on clear datapath/control, ISA correctness, and quick bring‑up.
 
