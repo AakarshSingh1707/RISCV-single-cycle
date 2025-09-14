@@ -11,16 +11,8 @@ Hardware demo: Fibonacci sequence on Basys‑3 7‑segment/LEDs.
 Repository layout
 src/: RTL (alu, regfile, control, pc, imem, dmem, top_single_cycle).
 
-tb/: Self‑checking testbenches and ISA tests.
-
-sim/: Scripts/waves (Icarus/Verilator/Questa).
-
-fpga/: Top, basys3.xdc, build Tcl.
-
-sw/asm/: Minimal programs (fib.S, branches.S, loads.S).
-
 Features
-ALU ops: add, sub, and, or, xor, slt/u, sll, srl, sra; byte/half/word loads/stores.
+ALU ops: add, sub, and, or, xor, slt/u, sll, srl, sra; byte loads/stores.
 
 Branch/jump support with PC+4 vs target mux.
 
